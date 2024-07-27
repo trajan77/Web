@@ -1,97 +1,83 @@
 header {
-  background-color: #fff;
-  height: 10vh;
+  background-color: #00BFFFFF;
+  height: 5vh;
   box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
   padding: 15px 0;
-  position: sticky;
   top: 0;
+  position: sticky;
   z-index: 99999;
 }
-.head{
-  display:flex;
-  justify-content:space-between;
-  position: sticky;
-  font-weight: normal;
+
+.head {
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
   width: 100%;
-  align-items: center;
 }
+
 .flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-li{
+
+li {
   list-style-type: none;
+  padding: 10px;
 }
+
+ul {
+  align-items: center;
+}
+
 header img {
   position: absolute;
-  width: 170px;
-  padding-bottom: 1111px;
 }
-.navList{
+
+.navList {
   display: flex;
 }
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
 header a {
-  margin-left: 30px;
-  transition: 0.5s;
-  font-weight: 500;
-}
-header a:hover {
-  color: #27ae60;
-}
-header span {
-  width: auto;
-  padding: 0px 6px;
-  background: #27ae60;
-  border-radius: 50px;
   color: #ffffff;
-  margin-right: 4px;
-  font-weight: 400;
+  font-size: 1.5em;
+  letter-spacing: 30px;
+  text-align: center;
+  margin-left: 50px;
+  transition: 0.2s;
 }
-header img {
-  width: 70px;
-  height: 70px;
-}
+
 header h4 {
   font-weight: 500;
   margin-right: 20px;
 }
-header .toggle {
-  display: none;
+
+header img {
+  width: 200px;
+  height: 60px;
 }
-@media screen and (max-width: 768px) {
-  header {
-    padding: 0;
+
+@keyframes jump {
+  0%, 20%, 80%, 100% {
+    transform: translateY(0);
   }
-  header a {
-    position: absolute;
+  30% {
+    transform: translateY(-3px);
   }
-  header img {
-    margin-top: 30px;
-    position: absolute;
+  50% {
+    transform: translateY(-6px);
   }
-  header .button {
-    display: none;
-    position: absolute;
+  70% {
+    transform: translateY(-3px);
   }
-  header .nav .flex {
-    display: flex;
-  }
-  header .toggle {
-    display: block;
-    margin-top: 20px;
-  }
-  header .small {
-    position: absolute;
-    top: 10vh;
-    left: 0;
-    width: 100%;
-    background-color: #27ae60;
-    padding: 20px;
-  }
-  header li a {
-    display: inline-block;
-    margin-bottom: 20px;
-    color: #fff;
-  }
+}
+
+.navList li:hover {
+  animation: jump 0.3s ease;
 }
