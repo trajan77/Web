@@ -11,6 +11,7 @@ const Header = () => {
             </div>
             <ul className="navList">
               <li><a href="">团队</a></li>
+              <li><a href="">项目</a></li>
               <li><a href="">个人</a></li>
             </ul>
             <div className='button flex'>
