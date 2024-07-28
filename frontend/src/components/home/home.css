@@ -1,0 +1,8 @@
+.back{
+    width: 100%;
+    object-fit: contain;
+    background-image: url("../../../public/background.png");
+}
+img{
+    object-fit: contain;
+}
