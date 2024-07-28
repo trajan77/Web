@@ -9,6 +9,7 @@ const Pages = () => {
                 <Header />
                 <Routes>
                     <Route exact path='/' element={<Home/>}/>
+                    <Route exact path='/team' element={<Home/>}/>
                 </Routes>
             </Router>
         </>
