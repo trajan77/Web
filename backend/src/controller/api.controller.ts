@@ -1,19 +1,22 @@
-import { Provide, Controller, Post, Body, Inject } from '@midwayjs/decorator';
+import { Inject, Controller, Get, Query, Post, Body } from '@midwayjs/core';
 import { Context } from '@midwayjs/koa';
 import { UserService } from '../service/user.service';
 
-@Provide()
 @Controller('/api')
-export class UserController {
+export class APIController {
   @Inject()
   ctx: Context;
 
   @Inject()
   userService: UserService;
 
+  @Get('/get_user')
+  async getUser(@Query('uid') uid) {
+    const user = await this.userService.getUser({ uid });
+    return { success: true, message: 'OK', data: user };
+  }
   @Post('/sign')
   async saveUser(@Body() userData: { username: string; password: string }) {
-    console.log(111);
     try {
       await this.userService.saveUser(userData);
       return { message: 'User data saved successfully' };

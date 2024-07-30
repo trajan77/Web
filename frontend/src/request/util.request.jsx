@@ -11,7 +11,7 @@ export async function getTitle() {
 
 export async function sendData(data) {
     try {
-        const response = await client.post('/sign', data);
+        const response = await client.post("http://127.0.0.1:7002/api/sign",data);
         return response.data;
     } catch (error) {
         console.error('Error sending data:', error);

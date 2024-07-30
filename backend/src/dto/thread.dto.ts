@@ -1,6 +1,6 @@
-import { Rule, RuleType } from '@midwayjs/validate';
+import { Rule, RuleType } from "@midwayjs/validate";
 
 export class ThreadDto {
-  @Rule(RuleType.string().required())
-  content: string;
+    @Rule(RuleType.string().required())
+    content: string;
 }

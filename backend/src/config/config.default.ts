@@ -7,4 +7,7 @@ export default {
     port: 7002,
   },
   webSocket: {},
+  cors: {
+    origin: "*"
+  }
 } as MidwayConfig;

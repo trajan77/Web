@@ -13,7 +13,6 @@ const MyModal = NiceModal.create((props) => {
     const onOk = async () => {
         try {
             await sendData({ username, password });
-            console.log("Data sent successfully");
             await modal.hide();
         } catch (error) {
             console.error("Failed to send data:", error);

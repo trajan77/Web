@@ -1,20 +1,23 @@
-import { Controller, Get, Inject, Post } from '@midwayjs/core';
-import { TaskService } from '../service/task.service';
-import { Task } from '../model/task.model';
+import { Controller, Get, Inject, Post } from "@midwayjs/core";
+import { TaskService } from "../service/task.service";
+import { Task } from "../model/task.model";
 
-@Controller('/task')
+@Controller("/task")
 export class TaskController {
-  @Inject()
-  taskService: TaskService;
 
-  @Post('/create')
-  public async create() {
-    const task: Task = new Task('Web Development', 'Day 3');
-    await this.taskService.create(task);
-  }
+    @Inject()
+    taskService: TaskService;
 
-  @Get('/fetch')
-  public async fetch() {
-    return this.taskService.fetch();
-  }
+    @Post('/create')
+    public async create() {
+        const task: Task = new Task("Web Development", "Day 3");
+        this.taskService.create(task);
+    }
+
+    @Get('/fetch')
+    public async fetch() {
+        return this.taskService.fetch();
+    }
+
+    
 }
