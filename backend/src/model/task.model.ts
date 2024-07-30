@@ -1,18 +1,17 @@
 export class Task {
+  private name: string;
 
-    private name: string;
+  description: string;
 
-    description: string;
+  createAt: Date;
 
-    createAt: Date;
+  constructor(name: string, description: string, createAt = new Date()) {
+    this.name = name;
+    this.description = description;
+    this.createAt = createAt;
+  }
 
-    constructor(name: string, description: string, createAt = new Date()) {
-        this.name = name;
-        this.description = description;
-        this.createAt = createAt;
-    }
-
-    public getName() {
-        return this.name;
-    }
+  public getName() {
+    return this.name;
+  }
 }

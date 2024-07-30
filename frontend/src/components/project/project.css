@@ -1,20 +1,24 @@
 .project {
     width: 100%;
     display: flex;
+    min-height: 1000px;
 }
 .contents {
     display: block;
 }
 .thing-container {
-    background-color: white;
-    width: 100%;
-    padding-bottom: 3px;
+    border-bottom:none;
+    width: 95%;
+    padding-left: 2%;
+    padding-right: 3%;
+    padding-top: 10px;
 }
 .Thing {
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: #dff7cd
+    border: 2px solid #a9a7a7;
+    border-left: 8px solid rgba(184, 222, 232, 0.9);
+
 }
+
 .road1{
     width: 33.333%;
 }
@@ -24,7 +28,18 @@
 .road3{
     width: 33.333%;
 }
-.title{
-    background: rgba(221, 220, 220, 0.9);
+.title1{
+    background: rgb(223, 247, 205);
+}
+.title2{
+    background: rgb(247, 230, 200);
+}
+.title3{
+    background: rgb(245, 202, 209);
+}
+.addThing{
+    padding-left: 2%;
+    padding-right: 3%;
+    width: 95%;
 }
 

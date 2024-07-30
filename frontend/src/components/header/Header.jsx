@@ -1,4 +1,6 @@
 import "./header.css"
+import NiceModal from "@ebay/nice-modal-react";
+import Sign from "./Sign.jsx";
 
 const Header = () => {
 
@@ -10,12 +12,11 @@ const Header = () => {
               <img src='../../../public/name.png' alt='' />
             </div>
             <ul className="navList">
-              <li><a href="">团队</a></li>
-              <li><a href="">项目</a></li>
-              <li><a href="">个人</a></li>
+              <li><a href="/team">团队</a></li>
+              <li><a href="/project">项目</a></li>
             </ul>
             <div className='button flex'>
-              <button className='btn1'>
+              <button className='btn1'  onClick={() => NiceModal.show(Sign)}>
                 <i className='fa fa-sign-out'></i> 请先登录
               </button>
             </div>

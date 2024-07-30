@@ -5,19 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e57f6cd-2fcc-4eb3-9cbf-052b86d5d293" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/project/Road1.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/project/Road2.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/project/Road3.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/project/Thing.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/project/project.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/team/Team.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/team/members.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/Sign.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/project/Window.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bigBoard.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/config/config.default.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/config/config.default.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controller/api.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/api.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controller/task.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/task.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controller/threads.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/threads.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/dto/thread.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/dto/thread.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/filter/default.filter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/filter/default.filter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/middleware/report.middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/report.middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/model/task.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/model/task.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/service/fileDB.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/fileDB.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/service/task.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/task.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/service/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/Pages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/Pages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Intro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Intro.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Team.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Team.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Road1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/project/Road1.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Road2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/project/Road2.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Road3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/project/Road3.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/project/project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/request/util.request.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/request/util.request.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +43,9 @@
         <option value="TypeScript File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="JSX File" />
         <option value="CSS File" />
+        <option value="JSX File" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -55,6 +69,9 @@
     &quot;accountId&quot;: &quot;d50708cd-603e-4659-a468-89899aacba74&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -65,24 +82,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WEB/Demo/frontend/public&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\WEB\\Demo\\backend\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Jest.api.test.ts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/WEB/Demo/frontend/public",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "D:/WEB/Demo/backend/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "D:\\WEB\\Demo\\backend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WEB\Demo\frontend\public" />
@@ -92,6 +111,21 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WEB\Demo\backend\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="bigBoard" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="bigBoard" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -120,7 +154,9 @@
       <workItem from="1721993150686" duration="532000" />
       <workItem from="1722051792379" duration="4616000" />
       <workItem from="1722132128929" duration="10669000" />
-      <workItem from="1722161599825" duration="10109000" />
+      <workItem from="1722161599825" duration="10183000" />
+      <workItem from="1722239307092" duration="8963000" />
+      <workItem from="1722307076932" duration="16365000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <option name="closed" value="true" />
@@ -138,7 +174,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722139895258</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="demo">
+      <option name="closed" value="true" />
+      <created>1722173045475</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722173045475</updated>
+    </task>
+    <task id="LOCAL-00004" summary="前端">
+      <option name="closed" value="true" />
+      <created>1722173083313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722173083313</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +198,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+    <MESSAGE value="前端" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/src/controller/home.controller.ts</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

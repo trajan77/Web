@@ -1,26 +1,25 @@
-import { Inject, Controller, Get, Query } from '@midwayjs/core';
+import { Provide, Controller, Post, Body, Inject } from '@midwayjs/decorator';
 import { Context } from '@midwayjs/koa';
 import { UserService } from '../service/user.service';
 
-//const djw = [];
-
+@Provide()
 @Controller('/api')
-export class APIController {
+export class UserController {
   @Inject()
   ctx: Context;
 
   @Inject()
   userService: UserService;
 
-  @Get('/get_user')
-  async getUser(@Query('uid') uid) {
-    const user = await this.userService.getUser({ uid });
-    return { success: true, message: 'OK', data: user };
+  @Post('/sign')
+  async saveUser(@Body() userData: { username: string; password: string }) {
+    console.log(111);
+    try {
+      await this.userService.saveUser(userData);
+      return { message: 'User data saved successfully' };
+    } catch (error) {
+      this.ctx.logger.error('Failed to save user data:', error);
+      return { message: 'Failed to save user data', error };
+    }
   }
-  //@Post('/register')
-  //async addUser() {
-  //  const { user } = this.ctx.request.body;
-  //  djw.push(user);
-  //  return 'ok';
-  //}
 }
