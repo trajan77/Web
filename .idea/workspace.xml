@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e57f6cd-2fcc-4eb3-9cbf-052b86d5d293" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/entity/team.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/entity/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/team.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/config/config.default.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/config/config.default.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/controller/api.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/api.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/service/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/Sign.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/Sign.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/Pages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/Pages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/project/project.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Intro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Intro.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Team.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Team.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/request/util.request.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/request/util.request.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +137,7 @@
       <workItem from="1722390756937" duration="11125000" />
       <workItem from="1722409022984" duration="11467000" />
       <workItem from="1722504251523" duration="2764000" />
-      <workItem from="1722589902505" duration="17192000" />
+      <workItem from="1722589902505" duration="18609000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <option name="closed" value="true" />
@@ -201,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722353786573</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="换成了sqlite数据库，整迷糊了">
+      <option name="closed" value="true" />
+      <created>1722610368158</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722610368158</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +205,8 @@
     <MESSAGE value="demo" />
     <MESSAGE value="前端" />
     <MESSAGE value="可以登录且储存账号密码" />
-    <option name="LAST_COMMIT_MESSAGE" value="可以登录且储存账号密码" />
+    <MESSAGE value="换成了sqlite数据库，整迷糊了" />
+    <option name="LAST_COMMIT_MESSAGE" value="换成了sqlite数据库，整迷糊了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

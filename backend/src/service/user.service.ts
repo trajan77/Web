@@ -1,5 +1,4 @@
 import { Provide } from '@midwayjs/core';
-import { IUserOptions } from '../interface';
 import * as util from 'node:util';
 
 const sqlite3 = require('sqlite3').verbose();
@@ -7,15 +6,7 @@ const db = new sqlite3.Database('mydata');
 
 @Provide()
 export class UserService {
-  async getUser(options: IUserOptions) {
-    return {
-      uid: options.uid,
-      username: 'mockedName',
-      phone: '12345678901',
-      email: 'xxx.xxx@xxx.com',
-    };
-  }
-  async login(userData) {
+  async login(userData: { username: any; password: any }) {
     const getAsync = util.promisify(db.get.bind(db));
     const runAsync = util.promisify(db.run.bind(db));
     try {
