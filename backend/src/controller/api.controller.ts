@@ -16,10 +16,9 @@ export class APIController {
     return { success: true, message: 'OK', data: user };
   }
   @Post('/sign')
-  async saveUser(@Body() userData: { username: string; password: string }) {
+  async saveUser(@Body() userData: { username: Text; password: Text }) {
     try {
-      await this.userService.saveUser(userData);
-      return { message: 'User data saved successfully' };
+      return this.userService.login(userData);
     } catch (error) {
       this.ctx.logger.error('Failed to save user data:', error);
       return { message: 'Failed to save user data', error };

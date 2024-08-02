@@ -5,25 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e57f6cd-2fcc-4eb3-9cbf-052b86d5d293" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/entity/team.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/entity/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/team.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/config/config.default.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/config/config.default.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/controller/api.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/api.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controller/home.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/home.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controller/task.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/task.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controller/threads.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/threads.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/dto/thread.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/dto/thread.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/filter/default.filter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/filter/default.filter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/middleware/report.middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/report.middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/model/task.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/model/task.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/service/fileDB.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/service/task.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/task.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/service/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/header/Sign.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/Sign.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/request/util.request.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/request/util.request.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/Pages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/Pages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/project/project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Intro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Intro.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Team.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Team.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +32,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="JSX File" />
         <option value="package.json" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -64,6 +63,7 @@
 }</component>
   <component name="ProblemsViewState">
     <option name="proportion" value="0.7482866" />
+    <option name="selectedTabId" value="CurrentFile" />
     <option name="showPreview" value="true" />
   </component>
   <component name="ProjectColorInfo">{
@@ -81,6 +81,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "Jest.api.test.ts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/WEB/Demo",
@@ -91,9 +92,17 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.jest.jest_package": "D:/WEB/Demo/backend/node_modules/jest",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "project.structure.last.edited": "问题",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "SQL Dialects",
     "ts.external.directory.path": "D:\\WEB\\Demo\\backend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -138,7 +147,11 @@
       <workItem from="1722307076932" duration="16840000" />
       <workItem from="1722350373508" duration="145000" />
       <workItem from="1722350616005" duration="681000" />
-      <workItem from="1722351379017" duration="2092000" />
+      <workItem from="1722351379017" duration="2367000" />
+      <workItem from="1722390756937" duration="11125000" />
+      <workItem from="1722409022984" duration="11467000" />
+      <workItem from="1722504251523" duration="2764000" />
+      <workItem from="1722589902505" duration="17192000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <option name="closed" value="true" />
@@ -180,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722350091013</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="可以登录且储存账号密码">
+      <option name="closed" value="true" />
+      <created>1722353786573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722353786573</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +210,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="demo" />
     <MESSAGE value="前端" />
-    <option name="LAST_COMMIT_MESSAGE" value="前端" />
+    <MESSAGE value="可以登录且储存账号密码" />
+    <option name="LAST_COMMIT_MESSAGE" value="可以登录且储存账号密码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -201,5 +223,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

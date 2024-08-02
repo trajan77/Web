@@ -1,9 +1,9 @@
 import { Provide } from '@midwayjs/core';
 import { IUserOptions } from '../interface';
-import * as fs from 'fs/promises';
-import * as path from 'path';
+import * as util from 'node:util';
 
-const USERS_FILE_PATH = path.join(__dirname, '../../users.json');
+const sqlite3 = require('sqlite3').verbose();
+const db = new sqlite3.Database('mydata');
 
 @Provide()
 export class UserService {
@@ -15,30 +15,24 @@ export class UserService {
       email: 'xxx.xxx@xxx.com',
     };
   }
-  async saveUser(userData: { username: string; password: string }) {
+  async login(userData) {
+    const getAsync = util.promisify(db.get.bind(db));
+    const runAsync = util.promisify(db.run.bind(db));
     try {
-      let users = [];
-      try {
-        const data = await fs.readFile(USERS_FILE_PATH, 'utf-8');
-        users = JSON.parse(data);
-        for (const user of users) {
-          if (user.username === userData.username) {
-            if (user.password !== userData.password) {
-              return;
-            } else {
-              return;
-            }
-          }
-        }
-        users.push(userData);
-        await fs.writeFile(USERS_FILE_PATH, JSON.stringify(users, null, 2));
-      } catch (err) {
-        if (err.code !== 'ENOENT') {
-          throw err;
-        }
+      const row = await getAsync('SELECT * FROM user WHERE username = ?', [
+        userData.username,
+      ]);
+
+      if (!row) {
+        await runAsync('INSERT INTO user (username, password) VALUES (?, ?)', [
+          userData.username,
+          userData.password,
+        ]);
+        return true;
       }
+      return row.password === userData.password;
     } catch (error) {
-      throw new Error('Failed to save user data');
+      throw new Error('Failed to query or insert user data');
     }
   }
 }

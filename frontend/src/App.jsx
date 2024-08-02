@@ -1,22 +1,40 @@
-import { useState } from 'react'
-
-import './App.css'
-import * as util_request from './request/util.request'
+import { useEffect, useState } from 'react';
+import './App.css';
 import Pages from "./components/pages/Pages.jsx";
-//import Header from './components/header/Header';
+import Header from "./components/header/Header.jsx";
+import NiceModal from "@ebay/nice-modal-react";
+import Sign from "./components/header/Sign.jsx";
 
 function App() {
-  const [title, setTitle] = useState("");
-  util_request.getTitle().then(result => {
-    console.log(title)
-    setTitle(result);
-  })
+  const [loggedInUser, setLoggedInUser] = useState(null);
+
+  useEffect(() => {
+    const storedUser = localStorage.getItem('loggedInUser');
+    if (storedUser) {
+      setLoggedInUser(storedUser);
+    }
+  }, []);
+
+  const handleLoginSuccess = (username) => {
+    setLoggedInUser(username);
+    localStorage.setItem('loggedInUser', username);
+  };
+
+  const handleLogout = () => {
+    setLoggedInUser(null);
+    localStorage.removeItem('loggedInUser');
+  };
 
   return (
-    <>
-        <Pages/>
-    </>
-  )
+      <>
+        <Header
+            loggedInUser={loggedInUser}
+            onShowLoginModal={() => NiceModal.show(Sign, { onLoginSuccess: handleLoginSuccess })}
+            onLogout={handleLogout}
+        />
+        <Pages />
+      </>
+  );
 }
 
-export default App
+export default App;

@@ -1,9 +1,7 @@
 import "./header.css"
-import NiceModal from "@ebay/nice-modal-react";
-import Sign from "./Sign.jsx";
 
-const Header = () => {
-
+// eslint-disable-next-line react/prop-types
+const Header = ({ loggedInUser, onShowLoginModal, onLogout }) => {
   return (
       <>
         <header>
@@ -16,9 +14,18 @@ const Header = () => {
               <li><a href="/project">项目</a></li>
             </ul>
             <div className='button flex'>
-              <button className='btn1'  onClick={() => NiceModal.show(Sign)}>
-                <i className='fa fa-sign-out'></i> 请先登录
-              </button>
+              {loggedInUser ? (
+                  <div>
+                    <span>{loggedInUser}  </span>
+                    <button onClick={onLogout}>
+                      退出登录
+                      </button>
+                  </div>
+              ) : (
+                  <button onClick={() => onShowLoginModal()}>
+                    请先登录
+                  </button>
+              )}
             </div>
           </div>
         </header>
