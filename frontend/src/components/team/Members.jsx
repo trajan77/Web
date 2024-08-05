@@ -1,5 +1,6 @@
 import "./Team.css";
-const Members = () => {
+
+const Members = (userTeam) => {
     return (
         <div className="members">
             <h3>团队成员</h3>

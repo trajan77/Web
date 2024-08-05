@@ -1,9 +1,9 @@
 import NiceModal, { useModal } from "@ebay/nice-modal-react";
 import { Modal } from "antd";
-import {sendData} from "../../request/util.request.jsx";
+import {sign} from "../../request/util.request.jsx";
 import {useState} from "react";
 
-const MyModal = NiceModal.create(({ onLoginSuccess }) => {
+const Sign = NiceModal.create(({ onLoginSuccess }) => {
     const modal = useModal();
     const [status, setStatus] = useState('');
     const [username, setUsername] = useState('');
@@ -30,7 +30,7 @@ const MyModal = NiceModal.create(({ onLoginSuccess }) => {
                 flg = 0;
             }
             if(flg === 1){
-                const response = await sendData({ username, password });
+                const response = await sign({ username, password });
                 if(response) {
                     onLoginSuccess(username);
                     await modal.hide();
@@ -89,6 +89,6 @@ function Tipping(status) {
     }
 }
 
-MyModal.propTypes = {};
+Sign.propTypes = {};
 
-export default MyModal;
+export default Sign;
