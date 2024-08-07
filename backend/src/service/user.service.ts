@@ -13,7 +13,6 @@ export class UserService {
       const row = await getAsync('SELECT * FROM user WHERE username = ?', [
         userData.username,
       ]);
-
       if (!row) {
         await runAsync('INSERT INTO user (username, password) VALUES (?, ?)', [
           userData.username,
@@ -27,7 +26,7 @@ export class UserService {
     }
   }
 
-  async getUserTeam(username: Text) {
+  async getUserTeamId(username: Text) {
     try {
       const user = await getAsync('SELECT * FROM user WHERE username = ?', [
         username,
@@ -41,7 +40,6 @@ export class UserService {
       }
       return row.team_id;
     } catch (error) {
-      console.error('Failed to retrieve user team:', error);
       throw new Error('Failed to retrieve user team');
     }
   }

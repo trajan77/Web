@@ -12,9 +12,8 @@ export class APIController {
   }
   @Get('/user/:username')
   async getUserTeam(@Param('username') username): Promise<any> {
-    console.log('Received username:', username); // 添加日志输出
     try {
-      return await this.userService.getUserTeam(username);
+      return await this.userService.getUserTeamId(username);
     } catch (error) {
       console.error('Error in getUserTeam:', error);
       throw error;

@@ -23,9 +23,38 @@ export async function getUser(username) {
         throw error;
     }
 }
-export async function createTeam({username, team, intro}) {
+export async function createTeam({user, team, intro}) {
     try {
-        const response = await client.post(base + `/api/team/create`, {username, team, intro});
+        const response = await client.post(base + `/api/team/create`, {user, team, intro});
+        return response.data;
+    } catch (error) {
+        console.error('Error sending data:', error);
+        throw error;
+    }
+}
+export async function getTeam(userTeam) {
+    try {
+        const response = await client.get(base + `/api/team/${userTeam}`);
+        return response.data;
+    } catch (error) {
+        console.error('Error sending data:', error);
+        throw error;
+    }
+}
+export async function getMembers(userTeam) {
+    try {
+        const response = await client.get(base + `/api/team/members/${userTeam}`);
+        return response.data;
+    } catch (error) {
+        console.error('Error sending data:', error);
+        throw error;
+    }
+}
+export async function inviteMembers({teamID, name}) {
+    console.log(name);
+    try {
+        const response = await client.post(base + `/api/team/invite`, {teamID, name});
+        console.log(response.data);
         return response.data;
     } catch (error) {
         console.error('Error sending data:', error);

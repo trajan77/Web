@@ -2,6 +2,7 @@ import "./header.css"
 
 // eslint-disable-next-line react/prop-types
 const Header = ({ loggedInUser, onShowLoginModal, onLogout }) => {
+
   return (
       <>
         <header>
@@ -16,7 +17,7 @@ const Header = ({ loggedInUser, onShowLoginModal, onLogout }) => {
             <div className='button flex'>
               {loggedInUser ? (
                   <div>
-                    <span>{loggedInUser}  </span>
+                    <span className="name">{loggedInUser}  </span>
                     <button onClick={onLogout}>
                       退出登录
                       </button>

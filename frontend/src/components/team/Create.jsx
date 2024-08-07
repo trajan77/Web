@@ -2,15 +2,13 @@ import NiceModal, { useModal } from "@ebay/nice-modal-react";
 import { Modal } from "antd";
 import { createTeam } from "../../request/util.request.jsx";
 import { useState } from "react";
-import PropTypes from "prop-types";
 
-const MyModal = NiceModal.create(({ username }) => {
+const MyModal = NiceModal.create(( {user}) => {
     const modal = useModal();
     const [team, setTeam] = useState('');
     const [intro, setIntro] = useState('');
-
     const onOk = async () => {
-        const response = await createTeam({ username, team, intro });
+        const response = await createTeam({ user, team, intro });
         if (response) {
             await modal.hide();
         }
@@ -32,9 +30,5 @@ const MyModal = NiceModal.create(({ username }) => {
         </Modal>
     );
 });
-
-MyModal.propTypes = {
-    username: PropTypes.string.isRequired,
-};
 
 export default MyModal;

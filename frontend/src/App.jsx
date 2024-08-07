@@ -11,10 +11,10 @@ function App() {
   const [userTeam, setUserTeam] = useState(0);
   const checkIfUserHasTeam = async (username) => {
     try {
-      if(loggedInUser) {
-        const response = await getUser(username);
-        setUserTeam(response.data);
-      }
+        if(username) {
+            const response = await getUser(username);
+            setUserTeam(response);
+        }
     } catch (error) {
       console.error('Failed to check if user has team:', error);
       setUserTeam(null);
@@ -25,9 +25,9 @@ function App() {
     const storedUser = localStorage.getItem('loggedInUser');
     if (storedUser) {
       setLoggedInUser(storedUser);
+        checkIfUserHasTeam(storedUser);
     }
-    checkIfUserHasTeam(storedUser);
-  }, []);
+  }, [loggedInUser]);
 
   const handleLoginSuccess = (username) => {
     setLoggedInUser(username);
@@ -37,6 +37,8 @@ function App() {
 
   const handleLogout = () => {
     setLoggedInUser(null);
+    setUserTeam(0);
+    checkIfUserHasTeam(null);
     localStorage.removeItem('loggedInUser');
   };
 

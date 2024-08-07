@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Team from "../team/Team.jsx";
 import Project from "../project/Project.jsx";
 
-const Pages = (userTeam ,loggedInUser) => {
+// eslint-disable-next-line react/prop-types
+const Pages = ({userTeam ,loggedInUser}) => {
     return (
         <Router>
             <Routes>

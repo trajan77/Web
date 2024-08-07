@@ -12,5 +12,35 @@
 .members{
     background: rgba(230, 234, 235, 0.9);
     width: 60%;
+    justify-content: center;
+    align-items: center;
 }
 
+.tip{
+    font-size: 20px;
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+
+.intro_button{
+    font-size: 18px;
+}
+h3{
+    font-size: 25px;
+    position: relative;
+}
+.teamname{
+    font-size: 35px;
+    padding-top: 10%;
+    padding-bottom: 25%;
+}
+.introduce{
+    font-size: 25px;
+}
+.username{
+    font-size: 20px;
+    padding-right: 7%;
+}
+.title{
+    padding-top: 3%;
+}

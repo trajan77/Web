@@ -5,22 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e57f6cd-2fcc-4eb3-9cbf-052b86d5d293" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/controller/team.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/service/team.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/team/Create.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/team/Invite.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/controller/api.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/api.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/service/task.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/task.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controller/team.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/team.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/service/team.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/team.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/service/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/Sign.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/Sign.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/Pages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/Pages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Create.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Create.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Intro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Intro.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Members.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Members.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Team.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Team.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Team.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Team.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/members.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Members.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/request/util.request.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/request/util.request.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="proportion" value="0.7482866" />
+    <option name="proportion" value="0.48099688" />
     <option name="selectedTabId" value="CurrentFile" />
     <option name="showPreview" value="true" />
   </component>
@@ -154,7 +154,11 @@
       <workItem from="1722611569033" duration="388000" />
       <workItem from="1722771169428" duration="4028000" />
       <workItem from="1722780225894" duration="5165000" />
-      <workItem from="1722863481856" duration="8709000" />
+      <workItem from="1722863481856" duration="9073000" />
+      <workItem from="1722910066841" duration="12116000" />
+      <workItem from="1722933067198" duration="1272000" />
+      <workItem from="1722936531518" duration="17897000" />
+      <workItem from="1722995947342" duration="6412000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <option name="closed" value="true" />
@@ -220,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722611795902</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="马上就能创建团队了">
+      <option name="closed" value="true" />
+      <created>1722872953103</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722872953103</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +244,8 @@
     <MESSAGE value="可以登录且储存账号密码" />
     <MESSAGE value="换成了sqlite数据库，整迷糊了" />
     <MESSAGE value="优化了一下又" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化了一下又" />
+    <MESSAGE value="马上就能创建团队了" />
+    <option name="LAST_COMMIT_MESSAGE" value="马上就能创建团队了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
