@@ -3,13 +3,18 @@ import {useEffect, useState} from "react";
 import {getMembers} from "../../request/util.request.jsx";
 import NiceModal from "@ebay/nice-modal-react";
 import Invite from "./Invite.jsx";
+import Go from "./Go.jsx";
 
 // eslint-disable-next-line react/prop-types
 const Members = ({userTeam,name}) => {
-    const [members, setMembers] = useState(null);
+    const [members, setMembers] = useState([]);
     const showInviteModal = () => {
         NiceModal.show(Invite, { teamID: userTeam})
     };
+    const showGoModal = () => {
+        NiceModal.show(Go, { name: name})
+    };
+
     useEffect(() => {
         if (userTeam) {
             getMembers(userTeam).then(userTeam => {
@@ -27,16 +32,17 @@ const Members = ({userTeam,name}) => {
                 </div>)
                 :
                 (
-                <div>
-                    <h3 className="title">团队成员</h3>
-                    <ul>
-                        {members && members.map((member, index) => (
-                            <li className="username" key={index}>{member}</li>
-                        ))}
-                    </ul>
-                    <button className="intro_button" onClick={showInviteModal}>邀请成员</button>
-                </div>
-                    )}
+                    <div>
+                        <h3 className="title">团队成员</h3>
+                        <ul>
+                            {members && members.map((member, index) => (
+                                <li className="username" key={index}>{member}</li>
+                            ))}
+                        </ul>
+                        <button className="intro_button" onClick={showInviteModal}>邀请成员</button>
+                        <button className="intro_button" onClick={showGoModal}>退出团队</button>
+                    </div>
+                )}
         </div>
     )
 }

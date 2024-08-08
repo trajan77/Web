@@ -14,6 +14,10 @@ export class TeamController {
   async invite(@Body() ID: { teamID: number; name: Text }) {
     return await this.teamService.invite(ID);
   }
+  @Post('/go')
+  async go(@Body() ID: { name: Text }) {
+    return await this.teamService.go(ID);
+  }
   @Get('/:userTeam')
   async getUserTeam(@Param('userTeam') userTeam: number): Promise<any> {
     try {

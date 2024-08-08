@@ -67,4 +67,18 @@ export class TeamService {
       throw new Error('Failed to create team');
     }
   }
+  async go(ID: { name: Text }): Promise<any> {
+    try {
+      const userID = await getAsync('SELECT * FROM user WHERE username = ?', [
+        ID.name,
+      ]);
+      await runAsync('DELETE FROM team_members where (user_id) = ?', [
+        userID.user_id,
+      ]);
+      return true;
+    } catch (error) {
+      console.error('Failed to create team:', error);
+      throw new Error('Failed to create team');
+    }
+  }
 }

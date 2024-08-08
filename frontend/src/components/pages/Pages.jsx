@@ -10,7 +10,7 @@ const Pages = ({userTeam ,loggedInUser}) => {
             <Routes>
                 <Route exact path='/' element={<Home />} />
                 <Route exact path='/team' element={<Team userTeam={userTeam} loggedInUser={loggedInUser} />} />
-                <Route exact path='/project' element={<Project />} />
+                <Route exact path='/project' element={<Project teamId={userTeam} userName={loggedInUser} />} />
             </Routes>
         </Router>
     );

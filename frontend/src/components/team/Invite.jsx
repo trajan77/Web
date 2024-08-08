@@ -25,7 +25,7 @@ const MyModal = NiceModal.create(({teamID}) => {
             cancelText="算了吧"
         >
             成员名称: <input type="text" onChange={(e) => setName(e.target.value)} />
-            请确定该成员还未加入团队
+            邀请成功弹窗自动关闭
         </Modal>
     );
 });

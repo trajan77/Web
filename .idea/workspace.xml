@@ -5,22 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e57f6cd-2fcc-4eb3-9cbf-052b86d5d293" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/team/Invite.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/controller/project.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/service/project.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/project/AddProject.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/project/AddTask.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/project/DelProject.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/project/Task.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/team/Go.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controller/api.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/api.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controller/task.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/task.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/controller/team.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/team.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/service/team.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/team.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/service/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/Pages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/Pages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Create.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Create.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Intro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Intro.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Project.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/project/Project.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Road1.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Road2.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Road3.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Thing.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Window.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/project/project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Invite.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Invite.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Members.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Members.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Team.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Team.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Team.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Team.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/request/util.request.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/request/util.request.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +164,8 @@
       <workItem from="1722910066841" duration="12116000" />
       <workItem from="1722933067198" duration="1272000" />
       <workItem from="1722936531518" duration="17897000" />
-      <workItem from="1722995947342" duration="6412000" />
+      <workItem from="1722995947342" duration="26825000" />
+      <workItem from="1723083521993" duration="22031000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <option name="closed" value="true" />
@@ -232,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722872953103</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="团队页面整好了">
+      <option name="closed" value="true" />
+      <created>1723004562565</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723004562565</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +260,8 @@
     <MESSAGE value="换成了sqlite数据库，整迷糊了" />
     <MESSAGE value="优化了一下又" />
     <MESSAGE value="马上就能创建团队了" />
-    <option name="LAST_COMMIT_MESSAGE" value="马上就能创建团队了" />
+    <MESSAGE value="团队页面整好了" />
+    <option name="LAST_COMMIT_MESSAGE" value="团队页面整好了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

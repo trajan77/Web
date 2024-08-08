@@ -1,45 +1,67 @@
-.project {
-    width: 100%;
+.project-container {
     display: flex;
-    min-height: 1000px;
-}
-.contents {
-    display: block;
-}
-.thing-container {
-    border-bottom:none;
-    width: 94%;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 10px;
-}
-.Thing {
-    border: 2px solid #a9a7a7;
-    border-left: 8px solid rgba(184, 222, 232, 0.9);
-
+    min-height: 90vh;
 }
 
-.road1{
-    width: 33.333%;
-}
-.road2{
-    width: 33.333%;
-}
-.road3{
-    width: 33.333%;
-}
-.title1{
-    background: rgb(223, 247, 205);
-}
-.title2{
-    background: rgb(247, 230, 200);
-}
-.title3{
-    background: rgb(245, 202, 209);
-}
-.addThing{
-    padding-left: 3%;
-    padding-right: 3%;
-    width: 94%;
+.project-list {
+    width: 10%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ccc;
 }
 
+.project-list h2 {
+    color: #333;
+}
+
+.project-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-list li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.project-list li:hover {
+    background-color: #e0e0e0;
+}
+
+.task-lanes {
+    width: 90%;
+}
+
+.task-lanes h2 {
+    color: #333;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.lanes {
+    display: flex;
+}
+.lane {
+    width: 33%;
+}
+.lane ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-lanes li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.task-lanes li:hover {
+    background-color: #e0e0e0;
+}
+
+.comments ul{
+    list-style-type: none;
+    padding: 0;
+}
