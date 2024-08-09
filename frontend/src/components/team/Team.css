@@ -1,23 +1,28 @@
 .team {
+    background-image: url("../../../public/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 .intro {
-    background: rgba(205, 230, 237, 0.9);
+    background: rgba(205, 230, 237, 0.8);
     width: 40%;
 }
 
 .members{
-    background: rgba(230, 234, 235, 0.9);
+    background: rgba(230, 234, 235, 0.8);
     width: 60%;
     justify-content: center;
     align-items: center;
 }
 
-.tip{
-    font-size: 20px;
+.tip1{
+    font-size: 25px;
     padding-top: 30%;
     padding-bottom: 30%;
 }

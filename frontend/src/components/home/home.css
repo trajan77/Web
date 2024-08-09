@@ -1,7 +1,11 @@
 .back{
     width: 100%;
     object-fit: contain;
-    background-image: url("../../../public/background.png");
+    background-image: url("../../../public/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 img{
     object-fit: contain;

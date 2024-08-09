@@ -132,7 +132,6 @@ export async function taskPrev({taskID}) {
     }
 }
 export async function sendComment({comment,taskID,userName}) {
-    console.log(userName);
     try {
         const response = await client.post(base + `/api/project/taskComment`, {comment, taskID, userName});
         return response.data;

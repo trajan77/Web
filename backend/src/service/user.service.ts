@@ -18,7 +18,7 @@ export class UserService {
           userData.username,
           userData.password,
         ]);
-        return true;
+        return 2;
       }
       return row.password === userData.password;
     } catch (error) {

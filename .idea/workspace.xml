@@ -5,29 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e57f6cd-2fcc-4eb3-9cbf-052b86d5d293" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/controller/project.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/service/project.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/project/AddProject.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/project/AddTask.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/project/DelProject.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/project/Task.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/team/Go.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controller/task.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/task.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controller/team.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/team.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/service/team.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/team.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/Pages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/Pages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/config/config.unittest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/config/config.unittest.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controller/project.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/project.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controller/task.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/middleware/report.middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/report.middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/service/project.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/project.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/service/task.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/service/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/ws/websocket.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/ws/websocket.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/team.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/Sign.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/Sign.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/home/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Project.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/project/Project.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Road1.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Road2.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Road3.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Thing.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Window.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Task.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/project/Task.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/project/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/project/project.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Invite.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Invite.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Create.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Create.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Intro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Intro.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Members.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Members.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Team.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Team.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/request/util.request.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/request/util.request.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +47,8 @@
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="package.json" />
-        <option value="TypeScript File" />
         <option value="JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -81,35 +87,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Jest.api.test.ts.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WEB/Demo/backend&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;D:/WEB/Demo/backend/node_modules/jest&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;问题&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;SQL Dialects&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\WEB\\Demo\\backend\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Jest.api.test.ts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/WEB/Demo",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "D:/WEB/Demo/backend/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "project.structure.last.edited": "问题",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "SQL Dialects",
+    "ts.external.directory.path": "D:\\WEB\\Demo\\backend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WEB\Demo\frontend\public" />
@@ -119,6 +126,23 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WEB\Demo\backend\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -166,6 +190,9 @@
       <workItem from="1722936531518" duration="17897000" />
       <workItem from="1722995947342" duration="26825000" />
       <workItem from="1723083521993" duration="22031000" />
+      <workItem from="1723169180511" duration="18351000" />
+      <workItem from="1723192565506" duration="21855000" />
+      <workItem from="1723218079382" duration="718000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <option name="closed" value="true" />

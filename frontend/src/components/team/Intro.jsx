@@ -9,7 +9,7 @@ const Intro = ({userTeam, name}) => {
     const [intro, setIntro] = useState(null);
     const [teamname, setTeamName] = useState(null);
     const showCreateModal = () => {
-        NiceModal.show(Create, { user: name })
+        NiceModal.show(Create, { user: name });
     };
     useEffect(() => {
         if(userTeam !== 0){
@@ -23,8 +23,8 @@ const Intro = ({userTeam, name}) => {
             <div className="intro">
                 {userTeam === 0 ? (
                     <div>
-                        <h4 className="tip">您还未加入团队，请等待组长邀请或创建团队</h4>
-                        <button className="intro_button" onClick={showCreateModal}>
+                        <h4 className="tip1">您还未加入团队，请等待组长邀请或创建团队</h4>
+                        <button className="intro_button" disabled={!name} onClick={showCreateModal}>
                             创建团队
                         </button>
                     </div>

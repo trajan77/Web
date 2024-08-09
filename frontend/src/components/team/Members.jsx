@@ -28,7 +28,7 @@ const Members = ({userTeam,name}) => {
         <div className="members">
             {userTeam === 0 ? (
                 <div>
-                    <h3 className="tip">请加入团队以使用全部功能</h3>
+                    <h3 className="tip1">请加入团队以使用全部功能</h3>
                 </div>)
                 :
                 (
@@ -39,8 +39,8 @@ const Members = ({userTeam,name}) => {
                                 <li className="username" key={index}>{member}</li>
                             ))}
                         </ul>
-                        <button className="intro_button" onClick={showInviteModal}>邀请成员</button>
-                        <button className="intro_button" onClick={showGoModal}>退出团队</button>
+                        <button className="intro_button" disabled={!name} onClick={showInviteModal}>邀请成员</button>
+                        <button className="intro_button" disabled={!name} onClick={showGoModal}>退出团队</button>
                     </div>
                 )}
         </div>

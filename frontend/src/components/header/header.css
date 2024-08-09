@@ -1,5 +1,5 @@
 header {
-  background-color: #83c5dc;
+  background-color: #0c678b;
   height: 5vh;
   box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
   padding: 15px 0;
@@ -83,5 +83,6 @@ header img {
 }
 
 .name {
+  color: #ffffff;
   font-size: 1.5em;
 }

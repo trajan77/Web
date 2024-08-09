@@ -11,7 +11,6 @@ const allAsync = util.promisify(db.all.bind(db));
 export class ProjectService {
   async createProject(userData: { name: Text; teamID: number }) {
     try {
-      console.log(userData);
       await runAsync(
         'INSERT INTO projects (project_name, team_id) VALUES (?, ?)',
         [userData.name, userData.teamID]
@@ -66,7 +65,6 @@ export class ProjectService {
     return tasks.map(task => task);
   }
   async delProject(projectData: { projectID: number }): Promise<any> {
-    console.log(projectData.projectID);
     try {
       await runAsync('DELETE FROM projects where (project_id) = ?', [
         projectData.projectID,
@@ -75,9 +73,6 @@ export class ProjectService {
         projectData.projectID,
       ]);
       for (const task of tasks) {
-        await runAsync('DELETE FROM task_comments where (task_id) = ?', [
-          task.task_id,
-        ]);
         await runAsync('DELETE FROM task_comments where (task_id) = ?', [
           task.task_id,
         ]);
@@ -97,6 +92,9 @@ export class ProjectService {
       [taskData.taskID]
     );
     if (status.statues === 2) {
+      await runAsync('DELETE FROM task_comments where (task_id) = ?', [
+        taskData.taskID,
+      ]);
       await runAsync('DELETE FROM tasks where (task_id) = ?', [
         taskData.taskID,
       ]);
@@ -124,7 +122,6 @@ export class ProjectService {
     taskID: number;
     userName: Text;
   }): Promise<any> {
-    console.log(taskData);
     await runAsync(
       'INSERT INTO task_comments (  comment_text,  task_id,  user_name) VALUES (?, ?, ?)',
       [taskData.comment, taskData.taskID, taskData.userName]

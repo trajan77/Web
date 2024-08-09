@@ -5,7 +5,6 @@ import { ProjectService } from '../service/project.service';
 export class ProjectController {
   @Inject()
   projectService: ProjectService;
-
   @Post('/create')
   async createProject(@Body() teamData: { name: Text; teamID: number }) {
     return await this.projectService.createProject(teamData);
@@ -61,7 +60,6 @@ export class ProjectController {
   }
   @Get('/comment/:taskID')
   async getComments(@Param('taskID') taskID: number): Promise<any> {
-    console.log(taskID);
     try {
       return await this.projectService.getComments(taskID);
     } catch (error) {

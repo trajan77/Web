@@ -27,6 +27,7 @@ const MyModal = NiceModal.create(( {user}) => {
             团队名称: <input type="text" onChange={(e) => setTeam(e.target.value)} />
             团队介绍: <input type="text" onChange={(e) => setIntro(e.target.value)} />
             创建后可邀请其他成员
+            创建后请刷新
         </Modal>
     );
 });

@@ -1,12 +1,17 @@
 .project-container {
     display: flex;
     min-height: 90vh;
+    background-image: url("../../../public/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .project-list {
     width: 10%;
     padding: 20px;
-    background-color: #f4f4f4;
+    background: rgba(230, 234, 235, 0.8);
     border-right: 1px solid #ccc;
 }
 
@@ -29,10 +34,17 @@
 }
 
 .task-lanes {
+    background: rgba(230, 234, 235, 0.8);
     width: 90%;
+
 }
 
-.task-lanes h2 {
+.tip2{
+    font-size: 40px;
+    padding-top: 20%;
+    padding-bottom: 30%;
+}
+.task-lanes h1 {
     color: #333;
 }
 
