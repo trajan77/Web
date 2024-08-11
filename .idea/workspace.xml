@@ -5,35 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e57f6cd-2fcc-4eb3-9cbf-052b86d5d293" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/public/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/nginx.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/config/config.unittest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/config/config.unittest.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controller/project.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/project.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controller/task.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/middleware/report.middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/report.middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/service/project.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/project.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/service/task.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/service/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/service/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/ws/websocket.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/ws/websocket.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/team.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controller/home.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controller/home.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/entity/team.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/entity/user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/Sign.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/Sign.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/home/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/home/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Project.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/project/Project.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/Task.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/project/Task.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/project/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/project/project.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Create.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Create.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Intro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Intro.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Members.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Members.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Team.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Team.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/request/util.request.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/request/util.request.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/Pages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/Pages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/team/Team.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/team/Team.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +63,13 @@
     &quot;accountId&quot;: &quot;d50708cd-603e-4659-a468-89899aacba74&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/backend/package.json" />
+  </component>
   <component name="ProblemsViewState">
     <option name="proportion" value="0.48099688" />
     <option name="selectedTabId" value="CurrentFile" />
@@ -90,12 +88,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Docker.Docker 镜像.executor": "Run",
     "Jest.api.test.ts.executor": "Run",
+    "Jest.test/controller/home.test.ts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "18.20.4",
+    "javascript.nodejs.core.library.typings.version": "18.19.44",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/WEB/Demo",
+    "last_opened_file_path": "D:/WEB/Demo/frontend",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -103,7 +105,10 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.jest.jest_package": "D:/WEB/Demo/backend/node_modules/jest",
     "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
     "npm.dev.executor": "Run",
+    "npm.package.executor": "Run",
+    "npm.start.executor": "Run",
     "project.structure.last.edited": "问题",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -119,20 +124,72 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WEB\Demo\frontend" />
       <recent name="D:\WEB\Demo\frontend\public" />
       <recent name="D:\WEB\Demo\frontend\src\components" />
       <recent name="D:\WEB\Demo\frontend\src\components\header" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WEB\Demo\frontend" />
+      <recent name="D:\WEB\Demo\frontend\public" />
+      <recent name="D:\WEB\Demo\backend" />
+      <recent name="D:\WEB\Demo" />
       <recent name="D:\WEB\Demo\backend\src" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.build">
+    <configuration name="test/controller/home.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/backend/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/backend" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/backend/test/controller/home.test.ts" />
+      <test-names>
+        <test-name value="test/controller/home.test.ts" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker 镜像" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="demo-backend:latest" />
+          <option name="containerName" value="1" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
+      <deployment type="docker-image">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="package" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/backend/package.json" />
       <command value="run" />
       <scripts>
-        <script value="dev" />
+        <script value="package" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -140,7 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="Docker.Docker 镜像" />
+        <item itemvalue="npm.package" />
+        <item itemvalue="Jest.test/controller/home.test.ts" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +253,11 @@
       <workItem from="1723083521993" duration="22031000" />
       <workItem from="1723169180511" duration="18351000" />
       <workItem from="1723192565506" duration="21855000" />
-      <workItem from="1723218079382" duration="718000" />
+      <workItem from="1723218079382" duration="1064000" />
+      <workItem from="1723256660300" duration="7651000" />
+      <workItem from="1723279105729" duration="5540000" />
+      <workItem from="1723301140503" duration="7299000" />
+      <workItem from="1723342693100" duration="18173000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <option name="closed" value="true" />
@@ -274,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723004562565</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="尝试打包始终没有成功，先存一下">
+      <option name="closed" value="true" />
+      <created>1723219010866</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723219010866</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,18 +361,8 @@
     <MESSAGE value="优化了一下又" />
     <MESSAGE value="马上就能创建团队了" />
     <MESSAGE value="团队页面整好了" />
-    <option name="LAST_COMMIT_MESSAGE" value="团队页面整好了" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/backend/src/controller/home.controller.ts</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="尝试打包始终没有成功，先存一下" />
+    <option name="LAST_COMMIT_MESSAGE" value="尝试打包始终没有成功，先存一下" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

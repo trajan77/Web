@@ -1,4 +1,5 @@
 import "./header.css"
+import name from "/name.png"
 
 // eslint-disable-next-line react/prop-types
 const Header = ({ loggedInUser, onShowLoginModal, onLogout }) => {
@@ -8,7 +9,7 @@ const Header = ({ loggedInUser, onShowLoginModal, onLogout }) => {
         <header>
           <div className="head">
             <div className="logo">
-              <img src='../../../public/name.png' alt='' />
+              <img src={name} alt='' />
             </div>
             <ul className="navList">
               <li><a href="/team">团队</a></li>
