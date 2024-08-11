@@ -10,6 +10,7 @@ const MyModal = NiceModal.create(( {user}) => {
     const onOk = async () => {
         const response = await createTeam({ user, team, intro });
         if (response) {
+            alert("创建成功 ！ 请刷新 ！")
             await modal.hide();
         }
     };

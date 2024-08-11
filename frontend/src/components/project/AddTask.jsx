@@ -14,6 +14,7 @@ const AddTaskModal = NiceModal.create(({projectId}) => {
         console.log(projectId,taskName,dueDate);
         const response = await addTask({projectId,taskName,taskData,dueDate});
         if (response) {
+            alert("添加成功 ！ 请刷新 ！")
             await modal.hide();
         }
     };

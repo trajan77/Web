@@ -9,6 +9,7 @@ const AddProject = NiceModal.create(({ projectID}) => {
         console.log(projectID)
         const response = await delProject({ projectID :projectID});
         if (response) {
+            alert("删除成功 ！ 请刷新 ！")
             await modal.hide();
         }
     };

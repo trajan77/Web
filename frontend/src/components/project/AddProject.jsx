@@ -10,6 +10,7 @@ const AddProject = NiceModal.create(({ teamID}) => {
     const onOk = async () => {
         const response = await createProject({ name, teamID});
         if (response) {
+            alert("添加成功 ！ 请刷新 ！")
             await modal.hide();
         }
     };

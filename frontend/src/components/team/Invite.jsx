@@ -10,6 +10,7 @@ const MyModal = NiceModal.create(({teamID}) => {
         const response = await inviteMembers({teamID,name});
         console.log(response);
         if (response) {
+            alert("邀请成功 ！")
             await modal.hide();
         }
     };

@@ -8,6 +8,7 @@ const MyModal = NiceModal.create(({name}) => {
 
         const response = await teamGo({name});
         if (response) {
+            alert("退出成功 ！")
             await modal.hide();
         }
     };
